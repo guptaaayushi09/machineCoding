@@ -1,5 +1,5 @@
 package machineCoding.parkingLot.price;
-
+import machineCoding.parkingLot.ParkingTicket;
 public interface PriceStrategy {
-    public int price();
+     double calculatePrice(ParkingTicket parkingTicket);
 }

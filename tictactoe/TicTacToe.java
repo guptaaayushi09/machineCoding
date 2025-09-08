@@ -6,7 +6,6 @@ import machineCoding.tictactoe.winningStrategy.Colwinning;
 import machineCoding.tictactoe.winningStrategy.WinningStrategy;
 import java.util.List;
 
-
 public class TicTacToe{
     private final Board board;
     private final Player[] players;
@@ -39,7 +38,7 @@ public class TicTacToe{
     }else{
         currentPlayerIndex = 1-currentPlayerIndex;
     }
- return true;
+      return true;
     }
     public synchronized void reset(){
         board.reset();
@@ -49,7 +48,6 @@ public class TicTacToe{
     public GameStatus getStatus(){
         return status;
     }
-
     public void printBoard(){
         board.print();
     }
