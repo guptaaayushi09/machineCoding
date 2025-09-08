@@ -1,5 +1,5 @@
 package machineCoding.parkingLot.vehicle;
 
-public class VehicleType {
-    
+public enum VehicleType {
+    CAR,BIKE,TRUCK
 }

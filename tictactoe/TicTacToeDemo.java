@@ -8,6 +8,7 @@ public class TicTacToeDemo {
         TicTacToe ticTacToeGame = new TicTacToe(player1, player2, 3);
             ticTacToeGame.placeMove(0,0);
             ticTacToeGame.printBoard();
+        
     
             ticTacToeGame.placeMove(0, 1);
             ticTacToeGame.printBoard();
